@@ -9,7 +9,7 @@ Simple Ruby wrapper for the Gerrit Code Review REST-API.
 [travis]: https://travis-ci.org/maveonair/gerry
 
 ## Documentation
-[http://rdoc.info/github/maveonair/gerry][documentation]
+[http://rdoc.info/github/maveonair/gerry][documentationfew ]
 
 [documentation]: http://rdoc.info/github/maveonair/gerry
 
@@ -25,7 +25,7 @@ gem install gerry-0.0.1.gem
 ### Get the global capabilities
 ```ruby
 client = Gerry.new('https://review')
-client.account_capabilities
+client.account_capabilitiesf
 => {"queryLimit"=>{"min"=>0, "max"=>250}}
 ```
 
